@@ -1,0 +1,23 @@
+CREATE TABLE Filmes (
+    FilmeID INT,
+    Titulo VARCHAR2 NOT NULL,
+    Sinopse VARCHAR2(MAX),
+    AnoLancamento DATE,
+	Categoria VARCHAR2
+);
+
+-- Tabela para o Cadastro de Clientes
+CREATE TABLE Clientes (
+    ClienteID INT,
+    Nome VARCHAR2 NOT NULL,
+    Email VARCHAR2 UNIQUE NOT NULL,
+    DataNascimento DATE
+);
+
+-- Tabela para os Planos de Acesso
+CREATE TABLE Planos (
+    PlanoID INT,
+    NomePlano VARCHAR2 NOT NULL,
+    Preco DECIMAL(10, 2),
+    Caracteristicas VARCHAR2(MAX)
+);
