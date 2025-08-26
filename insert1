@@ -1,0 +1,11 @@
+INSERT INTO Filmes VALUES (1,'O Poderoso Chefão','Romance, Drama, Comédia','1974-01-01','Romance, Drama, Comédia');
+INSERT INTO Filmes VALUES (2,'Um Sonho de Liberdade','Um jovem e bem sucedido banqueiroRomance, Drama, Comédia','1974-01-01','Romance, Drama, Comédia');
+INSERT INTO Filmes VALUES (3,'A Lista de Schindler','Romance, Drama, Comédia','1974-01-01','TERROR E SUSPENSE');
+INSERT INTO Filmes VALUES (4,'Forrest Gump - O Contador de Histórias','Romance, Drama, Comédia','1974-01-01','Romance, Drama, Comédia');
+    
+
+-- Tabela para o Cadastro de Clientes
+CREATE TABLE Clientes (1,'Manuela Comenale Vieira dos Santos','manuala.comenale@outlook.com','2023-11-11');
+
+-- Tabela para os Planos de Acesso
+CREATE TABLE Planos (1,'PlaFlix 01',110,'Acesso geral');
