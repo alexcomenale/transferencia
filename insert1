@@ -9,3 +9,9 @@ CREATE TABLE Clientes (1,'Manuela Comenale Vieira dos Santos','manuala.comenale@
 
 -- Tabela para os Planos de Acesso
 CREATE TABLE Planos (1,'PlaFlix 01',110,'Acesso geral');
+
+
+
+INSERT INTO Filmes VALUES (2,'Um Sonho de Liberdade','Drama','1974-01-01','Drama');   
+INSERT INTO Clientes VALUES (2,'Isis Oliveira Comenale','isis.comenale@outlook.com','2016-02-22');
+INSERT INTO Planos VALUES (2,'PlanFlix 02',90,'Acesso em Filmes, séries, Animes, Desenhos');
